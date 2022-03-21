@@ -1,6 +1,7 @@
 {
   "name": "@pastry-cord/rest",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
     "build": "tsc",
     "postinstall": "tsc",
