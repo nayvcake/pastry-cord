@@ -1,8 +1,11 @@
 {
   "name": "pastry-cord",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A powerful library to work with and build your own cache structure and to interact with the Discord API. ",
   "main": "index.js",
+  "workspaces": [
+    "packages/**"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest"
@@ -29,5 +32,9 @@
   "homepage": "https://github.com/nayvcake/pastry-cord#readme",
   "devDependencies": {
     "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.22",
+    "@types/ws": "^8.5.3"
   }
 }
