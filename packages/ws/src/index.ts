@@ -1,7 +1,7 @@
 import { Sharding } from './builder/defaultclient';
 import { DefaultShardingBuilder } from './builder/defaultsharding';
 import { CompressGateway, DefaultGateway, EncodingGateway, Intents } from './constants';
-import { GatewayEvent } from './events/GatewayEvent';
+import { GatewayEvent } from './events/gatewayevent';
 import { GatewayEventHello } from './events/hello';
 export {
   Sharding,

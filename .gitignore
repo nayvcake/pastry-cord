@@ -106,3 +106,6 @@ dist
 # Ignore Locks
 package-lock.json
 yarn.lock
+*.js
+*.d.ts
+*.js.map

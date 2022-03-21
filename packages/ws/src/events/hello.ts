@@ -1,4 +1,4 @@
-import { EventOptions, GatewayEvent } from './GatewayEvent';
+import { EventOptions, GatewayEvent } from './gatewayevent';
 
 export class GatewayEventHello extends GatewayEvent {
   constructor(options: EventOptions) {

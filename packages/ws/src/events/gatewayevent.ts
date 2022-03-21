@@ -1,4 +1,4 @@
-import { Sharding } from 'src/builder/defaultclient';
+import { Sharding } from '../../src/builder/defaultclient';
 import { DefaultShardingBuilder } from './../builder/defaultsharding';
 
 export interface RawData {}

@@ -2,8 +2,12 @@
   "compilerOptions": {
     "traceResolution": true,
     "watch": false,
-    "target": "es2016",
+    "target": "ES2022",
     "module": "commonjs",
+    "allowJs": true,
+    "sourceMap": true,
+    "pretty": true,
+    "resolveJsonModule": true,
     "moduleResolution": "node",
     "declaration": true,
     "removeComments": true,
@@ -25,5 +29,7 @@
     "allowUnusedLabels": true,
     "allowUnreachableCode": true,
     "skipLibCheck": true,                              
-  }
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["**/*.spec.ts", "node_modules"]
 }
