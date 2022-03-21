@@ -4,6 +4,8 @@
   "description": "A powerful library to work with and build your own cache structure and to interact with the Discord API. ",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "postinstall": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
