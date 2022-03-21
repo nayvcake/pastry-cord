@@ -43,10 +43,7 @@
        "@pastry-cord/rest": [
         "./packages/rest"
       ],
-    },
-    "types": [
-      "@types/node"
-    ]         
+    }       
   },
   "include": ["packages/**/*"],
   "exclude": ["node_modules"]
