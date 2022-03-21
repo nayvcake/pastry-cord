@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "traceResolution": true,
     "watch": false,
-    "target": "ES2022",
+    "target": "ES6",
     "module": "commonjs",
+    "outDir": "dist",
+    "baseUrl": ".",
     "allowJs": true,
     "sourceMap": true,
     "pretty": true,
@@ -28,8 +29,25 @@
     "noFallthroughCasesInSwitch": true,
     "allowUnusedLabels": true,
     "allowUnreachableCode": true,
-    "skipLibCheck": true,                              
+    "skipLibCheck": true,
+    "paths": {
+       "@pastry-cord/utils": [
+        "./packages/utils"
+      ],
+      "@pastry-cord/ws": [
+        "./packages/ws"
+      ],
+      "@pastry-cord/structures": [
+        "./packages/structures"
+      ],
+       "@pastry-cord/rest": [
+        "./packages/rest"
+      ],
+    },
+    "types": [
+      "@types/node"
+    ]         
   },
   "include": ["packages/**/*"],
-  "exclude": ["**/*.spec.ts", "node_modules"]
+  "exclude": ["node_modules"]
 }

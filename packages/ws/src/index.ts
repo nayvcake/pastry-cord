@@ -15,7 +15,7 @@ export {
   CompressGateway,
   EncodingGateway,
   Intents,
-  DefaultGateway
+  DefaultGateway,
 
 
 };
