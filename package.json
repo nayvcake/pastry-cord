@@ -2,11 +2,11 @@
   "name": "pastry-cord",
   "version": "0.0.1",
   "description": "A powerful library to work with and build your own cache structure and to interact with the Discord API. ",
-  "main": "index.js",
   "workspaces": [
     "packages/**"
   ],
   "scripts": {
+    "postinstall": "tsc",
     "build": "tsc",
     "test": "jest"
   },
